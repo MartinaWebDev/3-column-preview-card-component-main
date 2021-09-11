@@ -1,0 +1,111 @@
+body {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+p {
+  color: white;
+  width: 250px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.main {
+  color: #F2F2F2;
+  width: 900px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sedans {
+  background-color: #E38826;
+  margin: 0;
+}
+
+.suvs {
+  background-color: #006970;
+  margin: 0;
+}
+
+.luxury {
+  background-color: #004241;
+  margin: 0;
+}
+
+.button {
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.buttonsedans {
+  color: #E38826;
+}
+
+.buttonsedans:hover {
+  color: white;
+  background-color: inherit;
+}
+
+.buttonsuvs {
+  color: #006970;
+}
+
+.buttonsuvs:hover {
+  color: white;
+  background-color: inherit;
+}
+
+.buttonluxury {
+  color: #004241;
+}
+
+.buttonluxury:hover {
+  color: white;
+  background-color: inherit;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 115px;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+
+  }
+
+  .sedans {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
